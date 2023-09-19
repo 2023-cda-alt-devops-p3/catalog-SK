@@ -63,7 +63,7 @@ header {
     margin: 0.5rem;               /* Marges externes */
     padding: 0.4rem 0;            /* Marges internes */
     text-align: center;           /* Centrage du texte */   
-    background-color: #1ABC9C;    /* Arrière-plan */
+    background-color: #38015d ;    /* Arrière-plan */
     color: #fff;                  /* Couleur du texte */
     text-decoration: none;        /* Suppression du soulignement */
     border: 1px solid #fff;       /* Ajout d'une bordure */
@@ -73,12 +73,12 @@ header {
 }
 .menu a.actif {    
     background-color: #000 ; 
-    color: #1ABC9C ;
-    border-color: #1ABC9C ;
+    color: #38015d ;
+    border-color: #eeeeee ;
 }
 .menu a:hover,
 .menu a:hover.actif{
-    background-color: #ed2794;
+    background-color: #c00d00;
     color: #ffe843;
     border-color: #ffe843;
 }

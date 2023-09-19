@@ -1,0 +1,84 @@
+@media screen and (min-width: 900px) {
+    article {
+      padding: 1rem 3rem;
+    }
+  }
+
+body{
+    background-image: url(../img/31ec770231bc256710d3dd8bc0dc776d.jpeg);
+    background-position: cover;
+}
+
+h1 
+{
+display: flex;
+align-items: center;
+flex-direction: column;
+color: antiquewhite;
+
+}
+
+.titre
+{
+    background-color: #000;
+}
+
+ul 
+{
+    display: flex;
+align-items: center;
+flex-direction: column;
+list-style-type: space-counter;
+}
+
+.content_index
+{
+    padding-top: 23;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+
+
+/* css menu */
+header {
+    font-family: "Trebuchet MS";
+}
+.menu {
+    display: flex;                /* Transformation en flexbox */
+    flex-direction: row;
+    align-content: stretch;
+    padding:0;                    /* Suppression des marges internes */
+    background-color: #ccc;       /* Ajout de la couleur d'arrière-plan */
+    justify-content: center;/* Alignements des liens dans le menu */
+}
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+  
+}
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes */
+    padding: 0.4rem 0;            /* Marges internes */
+    text-align: center;           /* Centrage du texte */   
+    background-color: #38015d ;    /* Arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+    
+    transition: all 1s ;          /* Ajout des effets de transition */
+}
+.menu a.actif {    
+    background-color: #000 ; 
+    color: #38015d ;
+    border-color: #eeeeee ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+    background-color: #c00d00;
+    color: #ffe843;
+    border-color: #ffe843;
+}
